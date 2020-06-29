@@ -1,4 +1,4 @@
-console.log('Hola mundo')
+// Template String
 
 const nombre = 'Alexander'
 const apellido = 'Ballera'
