@@ -1,7 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import WeatherExtraInfo from './WeatherExtraInfo'
 import WeatherTemperature from './WeatherTemperature'
-import { CLOUDY } from '../constants/weathers'
+import { CLOUDY } from '../../constants/weathers'
 
 const WeatherData = () => (
   <div>
@@ -15,4 +16,12 @@ const WeatherData = () => (
     />
   </div>
 )
+
+WeatherTemperature.propTypes = {
+  temperature: PropTypes.number.isRequired,
+  weatherState: PropTypes.string.isRequired,
+  humidity: PropTypes.number,
+  wind: PropTypes.number,
+}
+
 export default WeatherData

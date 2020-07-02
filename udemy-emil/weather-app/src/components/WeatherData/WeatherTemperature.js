@@ -1,5 +1,5 @@
 import React from 'react'
-import WeatherIcons from 'react-weathericons';
+import WeatherIcons from 'react-weathericons'
 import {
   CLOUD,
   CLOUDY,
@@ -8,7 +8,7 @@ import {
   SUN,
   FOG,
   WINDY,
-} from '../constants/weathers'
+} from '../../constants/weathers'
 
 const icons = {
   [CLOUD]: "cloud",
